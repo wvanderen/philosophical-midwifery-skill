@@ -1,0 +1,86 @@
+# Requirements: Philosophical Midwifery
+
+**Defined:** 2026-06-23
+**Core Value:** The skill must reliably help an agent isolate and examine a user-confirmed proposition without drifting into therapy, advice, reassurance, or essay-writing.
+
+## v1 Requirements
+
+### Skill Package
+
+- [ ] **SKL-01**: User can load a `philosophical-midwifery` Agent Skill with YAML front matter that describes when to use it.
+- [ ] **SKL-02**: User can rely on the skill to follow the loop: disturbance -> hidden belief -> explicit proposition -> examination -> contradiction/revision -> session summary.
+- [ ] **SKL-03**: User can rely on the skill to ask one substantive question at a time and prefer inquiry over assertion.
+- [ ] **SKL-04**: User can rely on the skill to present candidate hidden beliefs as hypotheses, not conclusions.
+- [ ] **SKL-05**: User can rely on the skill to ask them to select, reject, or revise a candidate belief before examining it.
+
+### Method References
+
+- [ ] **MTH-01**: User can inspect a question taxonomy covering clarification, universalization, implication, counterexample, necessity/sufficiency, domain separation, contradiction testing, and reformulation.
+- [ ] **MTH-02**: User can inspect pathologos pattern guidance that helps generate candidate beliefs without overclaiming certainty.
+- [ ] **MTH-03**: User can inspect safety boundaries that stop normal inquiry for self-harm intent, intent to harm others, acute crisis, psychosis-like loss of reality testing, or diagnosis requests.
+- [ ] **MTH-04**: User can inspect a session schema that captures the fields needed to track inquiry state.
+
+### Session Artifacts
+
+- [ ] **ART-01**: User can use a session summary template that captures the presenting disturbance, concrete example, candidate pathologos, examined proposition, definitions, implications, counterexamples, contradiction or weakness, revised proposition, unresolved tension, and next inquiry target.
+- [ ] **ART-02**: User can use a belief graph JSON template as a seed for later recurring-belief analysis.
+- [ ] **ART-03**: User can validate a session JSON artifact against required schema fields with a local script.
+
+### Evaluation
+
+- [ ] **EVAL-01**: User can evaluate sample sessions for proposition clarity, user ownership, dialectical discipline, logical pressure, non-coercion, summary quality, and practical usefulness.
+- [ ] **EVAL-02**: User can run or inspect representative fixtures that test normal inquiry, overinterpretation prevention, advice avoidance, and safety-boundary handling.
+- [ ] **EVAL-03**: User can confirm the skill package remains complete through a lightweight automated check.
+
+## v2 Requirements
+
+### Local Harness
+
+- **HAR-01**: User can run a local CLI or simple web chat harness using the skill.
+- **HAR-02**: User can persist JSON session state across turns.
+- **HAR-03**: User can export transcripts and generated session summaries.
+
+### Belief Graph
+
+- **GRPH-01**: User can persist belief records across sessions.
+- **GRPH-02**: User can link recurring propositions and pathologos patterns.
+- **GRPH-03**: User can inspect and correct a belief map.
+
+## Out of Scope
+
+| Feature | Reason |
+|---------|--------|
+| Mental health treatment or diagnosis | The project is philosophical inquiry, not clinical care. |
+| Crisis counseling | Crisis cases should stop normal inquiry and route to human support resources. |
+| Standalone chat application in v1 | The first milestone validates the Agent Skill itself. |
+| Persistent belief graph in v1 | Recurring-belief analysis depends on a validated session schema and skill behavior. |
+| Generic self-help advice | Advice would undermine the core value of disciplined examination. |
+
+## Traceability
+
+| Requirement | Phase | Status |
+|-------------|-------|--------|
+| SKL-01 | Phase 1 | Pending |
+| SKL-02 | Phase 1 | Pending |
+| SKL-03 | Phase 1 | Pending |
+| SKL-04 | Phase 1 | Pending |
+| SKL-05 | Phase 1 | Pending |
+| MTH-01 | Phase 1 | Pending |
+| MTH-02 | Phase 1 | Pending |
+| MTH-03 | Phase 1 | Pending |
+| MTH-04 | Phase 2 | Pending |
+| ART-01 | Phase 2 | Pending |
+| ART-02 | Phase 2 | Pending |
+| ART-03 | Phase 2 | Pending |
+| EVAL-01 | Phase 3 | Pending |
+| EVAL-02 | Phase 3 | Pending |
+| EVAL-03 | Phase 3 | Pending |
+
+**Coverage:**
+- v1 requirements: 15 total
+- Mapped to phases: 15
+- Unmapped: 0
+
+---
+*Requirements defined: 2026-06-23*
+*Last updated: 2026-06-23 after initial definition*
