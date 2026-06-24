@@ -1,0 +1,43 @@
+{
+  "session_id": "e4f2b3c5-6d7f-4a8b-9c0d-1e2f3a4b5c6d",
+  "created_at": "2026/06/24 12:00:00",
+  "phase": "revision",
+  "presenting_disturbance": "The user feels resentful when their work goes unrecognized.",
+  "concrete_example": "A project the user led shipped successfully, but no one acknowledged their contribution, and the user felt the work 'didn't happen.'",
+  "candidate_beliefs": [
+    {
+      "id": "belief_1",
+      "text": "Recognition determines worth.",
+      "confidence": "medium",
+      "evidence": [
+        "User said the work felt pointless when unnoticed.",
+        "User described being unseen as personally painful."
+      ]
+    }
+  ],
+  "selected_belief": {
+    "id": "belief_1",
+    "text": "Recognition determines worth."
+  },
+  "definitions": {
+    "recognition": "someone noticing or acknowledging the work",
+    "worth": "the value of the work itself, independent of its visibility"
+  },
+  "implications": [
+    "If recognition determines worth, then unrecognized work has no value."
+  ],
+  "counterexamples": [
+    "The user agreed a colleague's excellent unnoticed work would still be good."
+  ],
+  "contradictions": [
+    "The user holds that valuable things can go unrecognized, yet felt their own unrecognized work had no value."
+  ],
+  "revised_proposition": "Recognition affects visibility and opportunity, but does not determine intrinsic worth.",
+  "unresolved_tensions": [
+    "The user still equates professional invisibility with personal diminishment."
+  ],
+  "next_questions": [
+    "Examine the proposition 'Being overlooked means being diminished' as the next inquiry target."
+  ],
+  "session_summary": "## Session Summary\n\n**Examined proposition:** (intentionally broken sibling of valid.json) recognition thread, missing normalized_proposition and with a bad phase value to exercise the validator."
+}
