@@ -21,6 +21,11 @@
 
 **Requirements:** SKL-01, SKL-02, SKL-03, SKL-04, SKL-05, MTH-01, MTH-02, MTH-03
 
+**Plans:** 1 plan
+
+Plans:
+- [ ] 01-01-PLAN.md — Author the complete 4-file skill package (SKILL.md + 3 references) as one coherent deliverable, with a blocking human-verify checkpoint for safety-boundary prose and cross-file consistency.
+
 **Success Criteria**:
 1. `SKILL.md` exists with correct front matter, trigger conditions, role boundaries, and dialogue rules.
 2. The skill explicitly guides disturbance -> candidate belief -> user-confirmed proposition -> examination -> contradiction/revision -> summary.
