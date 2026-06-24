@@ -1,0 +1,71 @@
+{
+  "_v1_optional": true,
+  "_note": "Optional future-compatible property-graph seed for philosophical-midwifery sessions. This is NOT a required v1 step: Phase 1's ../SKILL.md session loop is left unchanged, and the agent need not populate this graph during a v1 session. It exists so Phase v2 (GRPH-01..03: cross-session belief graph, recurrence machinery) can grow into a shape that is already documented here. Only the skeleton schema and ONE worked example are provided; do not treat the example nodes/edges as required runtime output.",
+  "_schema": {
+    "node_shape": {
+      "id": "string identifier unique within the graph (beliefs use the belief_N convention)",
+      "type": "one of node_types below",
+      "text": "string — the belief, proposition, contradiction description, or revised proposition",
+      "props": "optional object of additional fields; belief nodes may carry pathologos_pattern"
+    },
+    "node_types": ["belief", "proposition", "contradiction", "revised_proposition"],
+    "edge_shape": {
+      "source": "source node id",
+      "target": "target node id",
+      "type": "one of edge_types below"
+    },
+    "edge_types": ["normalizes_to", "contradicts", "revises"],
+    "allowed_pathologos_patterns": [
+      "conditional_worth",
+      "control_responsibility",
+      "belonging_rejection",
+      "perfection_flawlessness"
+    ],
+    "pathologos_note": "Belief nodes MAY carry an optional props.pathologos_pattern referencing one of the four Phase 1 archetype machine names (see ../references/PATHOLOGOS_PATTERNS.md). It is a hypothesis tag, never a diagnosis. Cross-session recurrence counters, first_seen_session, and provenance are deferred to v2 (GRPH-01..03) and are intentionally absent from this seed."
+  },
+  "nodes": [
+    {
+      "id": "belief_1",
+      "type": "belief",
+      "text": "Recognition determines worth.",
+      "props": {
+        "pathologos_pattern": "conditional_worth"
+      }
+    },
+    {
+      "id": "prop_1",
+      "type": "proposition",
+      "text": "The value of work depends on recognition.",
+      "props": {}
+    },
+    {
+      "id": "contra_1",
+      "type": "contradiction",
+      "text": "The user holds that valuable things can go unrecognized, yet felt their own unrecognized work had no value. The two commitments cannot both hold as stated.",
+      "props": {}
+    },
+    {
+      "id": "rev_1",
+      "type": "revised_proposition",
+      "text": "Recognition affects visibility and opportunity, but does not determine intrinsic worth.",
+      "props": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "belief_1",
+      "target": "prop_1",
+      "type": "normalizes_to"
+    },
+    {
+      "source": "prop_1",
+      "target": "contra_1",
+      "type": "contradicts"
+    },
+    {
+      "source": "contra_1",
+      "target": "rev_1",
+      "type": "revises"
+    }
+  ]
+}
