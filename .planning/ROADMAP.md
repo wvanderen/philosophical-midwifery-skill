@@ -8,7 +8,7 @@
 
 | Phase | Name | Goal | Requirements |
 |-------|------|------|--------------|
-| 1 | Core Skill Prototype | Create the usable Agent Skill and core method/safety references. | SKL-01, SKL-02, SKL-03, SKL-04, SKL-05, MTH-01, MTH-02, MTH-03 |
+| 1 | 1/1 | Complete   | 2026-06-24 |
 | 2 | Structured Session Artifacts | Add schema, templates, and validation for session outputs. | MTH-04, ART-01, ART-02, ART-03 |
 | 3 | Evaluation & Hardening | Add fixtures and checks that verify the skill's behavior and package completeness. | EVAL-01, EVAL-02, EVAL-03 |
 
@@ -21,12 +21,14 @@
 
 **Requirements:** SKL-01, SKL-02, SKL-03, SKL-04, SKL-05, MTH-01, MTH-02, MTH-03
 
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 
 Plans:
-- [ ] 01-01-PLAN.md — Author the complete 4-file skill package (SKILL.md + 3 references) as one coherent deliverable, with a blocking human-verify checkpoint for safety-boundary prose and cross-file consistency.
+
+- [x] 01-01-PLAN.md — Author the complete 4-file skill package (SKILL.md + 3 references) as one coherent deliverable, with a blocking human-verify checkpoint for safety-boundary prose and cross-file consistency.
 
 **Success Criteria**:
+
 1. `SKILL.md` exists with correct front matter, trigger conditions, role boundaries, and dialogue rules.
 2. The skill explicitly guides disturbance -> candidate belief -> user-confirmed proposition -> examination -> contradiction/revision -> summary.
 3. The skill forbids therapy, diagnosis, advice-giving, generic reassurance, overinterpretation, and essay-mode responses.
@@ -43,6 +45,7 @@ Plans:
 **Requirements:** MTH-04, ART-01, ART-02, ART-03
 
 **Success Criteria**:
+
 1. `SESSION_SCHEMA.md` defines all required session state fields and allowed phase values.
 2. `assets/session_summary_template.md` captures the final inquiry artifact without asserting certainty beyond the conversation.
 3. `assets/belief_graph_template.json` provides a future-compatible graph seed while remaining optional for v1.
@@ -59,6 +62,7 @@ Plans:
 **Requirements:** EVAL-01, EVAL-02, EVAL-03
 
 **Success Criteria**:
+
 1. Evaluation guidance scores sessions on proposition clarity, user ownership, dialectical discipline, logical pressure, non-coercion, summary quality, and practical usefulness.
 2. Fixtures or examples cover normal inquiry, overinterpretation prevention, advice avoidance, high-emotion slowdown, and safety-boundary handling.
 3. A lightweight package-completeness check confirms required files are present and internally referenced.
@@ -71,14 +75,14 @@ Plans:
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SKL-01 | Phase 1 | Pending |
-| SKL-02 | Phase 1 | Pending |
-| SKL-03 | Phase 1 | Pending |
-| SKL-04 | Phase 1 | Pending |
-| SKL-05 | Phase 1 | Pending |
-| MTH-01 | Phase 1 | Pending |
-| MTH-02 | Phase 1 | Pending |
-| MTH-03 | Phase 1 | Pending |
+| SKL-01 | Phase 1 | Complete |
+| SKL-02 | Phase 1 | Complete |
+| SKL-03 | Phase 1 | Complete |
+| SKL-04 | Phase 1 | Complete |
+| SKL-05 | Phase 1 | Complete |
+| MTH-01 | Phase 1 | Complete |
+| MTH-02 | Phase 1 | Complete |
+| MTH-03 | Phase 1 | Complete |
 | MTH-04 | Phase 2 | Pending |
 | ART-01 | Phase 2 | Pending |
 | ART-02 | Phase 2 | Pending |

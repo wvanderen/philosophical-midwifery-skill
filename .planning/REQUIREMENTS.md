@@ -7,17 +7,17 @@
 
 ### Skill Package
 
-- [ ] **SKL-01**: User can load a `philosophical-midwifery` Agent Skill with YAML front matter that describes when to use it.
-- [ ] **SKL-02**: User can rely on the skill to follow the loop: disturbance -> hidden belief -> explicit proposition -> examination -> contradiction/revision -> session summary.
-- [ ] **SKL-03**: User can rely on the skill to ask one substantive question at a time and prefer inquiry over assertion.
-- [ ] **SKL-04**: User can rely on the skill to present candidate hidden beliefs as hypotheses, not conclusions.
-- [ ] **SKL-05**: User can rely on the skill to ask them to select, reject, or revise a candidate belief before examining it.
+- [x] **SKL-01**: User can load a `philosophical-midwifery` Agent Skill with YAML front matter that describes when to use it.
+- [x] **SKL-02**: User can rely on the skill to follow the loop: disturbance -> hidden belief -> explicit proposition -> examination -> contradiction/revision -> session summary.
+- [x] **SKL-03**: User can rely on the skill to ask one substantive question at a time and prefer inquiry over assertion.
+- [x] **SKL-04**: User can rely on the skill to present candidate hidden beliefs as hypotheses, not conclusions.
+- [x] **SKL-05**: User can rely on the skill to ask them to select, reject, or revise a candidate belief before examining it.
 
 ### Method References
 
-- [ ] **MTH-01**: User can inspect a question taxonomy covering clarification, universalization, implication, counterexample, necessity/sufficiency, domain separation, contradiction testing, and reformulation.
-- [ ] **MTH-02**: User can inspect pathologos pattern guidance that helps generate candidate beliefs without overclaiming certainty.
-- [ ] **MTH-03**: User can inspect safety boundaries that stop normal inquiry for self-harm intent, intent to harm others, acute crisis, psychosis-like loss of reality testing, or diagnosis requests.
+- [x] **MTH-01**: User can inspect a question taxonomy covering clarification, universalization, implication, counterexample, necessity/sufficiency, domain separation, contradiction testing, and reformulation.
+- [x] **MTH-02**: User can inspect pathologos pattern guidance that helps generate candidate beliefs without overclaiming certainty.
+- [x] **MTH-03**: User can inspect safety boundaries that stop normal inquiry for self-harm intent, intent to harm others, acute crisis, psychosis-like loss of reality testing, or diagnosis requests.
 - [ ] **MTH-04**: User can inspect a session schema that captures the fields needed to track inquiry state.
 
 ### Session Artifacts
@@ -60,14 +60,14 @@
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| SKL-01 | Phase 1 | Pending |
-| SKL-02 | Phase 1 | Pending |
-| SKL-03 | Phase 1 | Pending |
-| SKL-04 | Phase 1 | Pending |
-| SKL-05 | Phase 1 | Pending |
-| MTH-01 | Phase 1 | Pending |
-| MTH-02 | Phase 1 | Pending |
-| MTH-03 | Phase 1 | Pending |
+| SKL-01 | Phase 1 | Complete |
+| SKL-02 | Phase 1 | Complete |
+| SKL-03 | Phase 1 | Complete |
+| SKL-04 | Phase 1 | Complete |
+| SKL-05 | Phase 1 | Complete |
+| MTH-01 | Phase 1 | Complete |
+| MTH-02 | Phase 1 | Complete |
+| MTH-03 | Phase 1 | Complete |
 | MTH-04 | Phase 2 | Pending |
 | ART-01 | Phase 2 | Pending |
 | ART-02 | Phase 2 | Pending |
@@ -77,6 +77,7 @@
 | EVAL-03 | Phase 3 | Pending |
 
 **Coverage:**
+
 - v1 requirements: 15 total
 - Mapped to phases: 15
 - Unmapped: 0
