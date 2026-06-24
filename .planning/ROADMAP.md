@@ -44,6 +44,12 @@ Plans:
 
 **Requirements:** MTH-04, ART-01, ART-02, ART-03
 
+**Plans:** 0/1 plans complete
+
+Plans:
+
+- [ ] 02-01-PLAN.md — Author the additive artifact layer (SESSION_SCHEMA.md + summary template + belief-graph seed) and the machine-checkable loop (stdlib validator + valid/invalid fixtures), threaded by the shared "recognition determines worth" example, with a blocking human-verify gate for voice/optionality/cross-file coherence.
+
 **Success Criteria**:
 
 1. `SESSION_SCHEMA.md` defines all required session state fields and allowed phase values.
