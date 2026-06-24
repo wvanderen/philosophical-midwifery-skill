@@ -444,18 +444,20 @@ Claims tagged `[ASSUMED]` that the planner/discuss-phase may want to confirm. CO
 | A4 | Hard-MUST vs soft-prefer modal split improves directive reliability (general prompt-engineering practice, not measured in-session) | Pattern 4 (D-09/D-10) | Low — D-10 locks the split regardless; the claim only justifies *why*. Real reliability is validated in Phase 3 (EVAL-02). |
 | A5 | Minimal frontmatter (name + description only, no `when_to_use`/`allowed-tools`) maximizes cross-runtime portability | Standard Stack | Low — adding optional fields would not break anything; the recommendation is conservative. Planner may add a `when_to_use` field if it aids activation on a specific target runtime. |
 
-## Open Questions
+## Open Questions (RESOLVED)
+
+> All three open questions are resolved by the Phase 1 plan (`01-01-PLAN.md`): Q1 → CONTEXT.md "agent's Discretion" + Task 1 minimal frontmatter; Q2 → Task 3 blocking `checkpoint:human-verify`; Q3 → Task 2 `read_first` grounds on Burns+REBT only.
 
 1. **Target runtime(s) for v1.** The skill is portable, but if a *primary* runtime is intended (Claude Code vs opencode), the planner may add runtime-specific optional frontmatter (e.g., Claude Code `when_to_use` for richer activation, or `disable-model-invocation` if inquiry should be user-invoked only).
    - What we know: both runtimes accept `name`+`description` and load references on-demand.
    - What's unclear: whether the user wants `/philosophical-midwifery` to be user-invocable, model-invocable, or both.
-   - Recommendation: default to model-invocable (both user and agent can invoke) with minimal frontmatter; revisit if false-activation occurs in Phase 3 evals.
+   - RESOLVED: default to model-invocable (both user and agent can invoke) with minimal frontmatter; revisit if false-activation occurs in Phase 3 evals.
 
 2. **Exact stop-condition signal phrasing (A1).** The three non-self-harm stop conditions (harm-to-others, acute crisis, reality-testing loss) have no single fetched authoritative phrase list.
-   - Recommendation: planner adds a `checkpoint:human-verify` task reviewing SAFETY_BOUNDARIES.md prose; the implementer drafts from the structure in Example 7, and a human confirms the phrasing is neither under- nor over-triggering.
+   - RESOLVED: planner adds a `checkpoint:human-verify` task reviewing SAFETY_BOUNDARIES.md prose; the implementer drafts from the structure in Example 7, and a human confirms the phrasing is neither under- nor over-triggering.
 
 3. **Whether to include schema-therapy vocabulary.** It enriches the affective-charge field (D-07) but isn't required.
-   - Recommendation: use Burns+REBT as primary citations; optionally cite schema-therapy schema names where they sharpen an entry, tagged as corroborating.
+   - RESOLVED: use Burns+REBT as primary citations; optionally cite schema-therapy schema names where they sharpen an entry, tagged as corroborating.
 
 ## Environment Availability
 
