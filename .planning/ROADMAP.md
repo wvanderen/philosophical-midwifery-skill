@@ -67,6 +67,12 @@ Plans:
 
 **Requirements:** EVAL-01, EVAL-02, EVAL-03
 
+**Plans:** 1 plan
+
+Plans:
+
+- [ ] 03-01-PLAN.md — Author the evaluation/hardening layer (EVALUATION_RUBRIC.md + 5 examples/*.md fixtures + check_package.py + repo-root README + frozen review record) as one coherent additive deliverable threaded by the recognition-determines-worth example, with a blocking human-verify checkpoint for rubric voice, 7-dimension fidelity, fixture coverage, safety-stop fidelity, and cross-file coherence.
+
 **Success Criteria**:
 
 1. Evaluation guidance scores sessions on proposition clarity, user ownership, dialectical discipline, logical pressure, non-coercion, summary quality, and practical usefulness.
