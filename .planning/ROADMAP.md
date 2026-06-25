@@ -62,7 +62,7 @@ Plans:
 
 ### Phase 3: Evaluation & Hardening
 
-**Goal:** Verify that the skill behaves as designed across normal inquiry, boundary, and failure-mode examples.
+**Goal:** As a skill collaborator, I want to verify the skill behaves as designed across normal inquiry, boundary, and failure-mode examples, so that I can confirm the v1 package is ready to ship.
 **Mode:** mvp
 
 **Requirements:** EVAL-01, EVAL-02, EVAL-03
