@@ -67,11 +67,11 @@ Plans:
 
 **Requirements:** EVAL-01, EVAL-02, EVAL-03
 
-**Plans:** 1 plan
+**Plans:** 1/1 plans complete
 
 Plans:
 
-- [ ] 03-01-PLAN.md — Author the evaluation/hardening layer (EVALUATION_RUBRIC.md + 5 examples/*.md fixtures + check_package.py + repo-root README + frozen review record) as one coherent additive deliverable threaded by the recognition-determines-worth example, with a blocking human-verify checkpoint for rubric voice, 7-dimension fidelity, fixture coverage, safety-stop fidelity, and cross-file coherence.
+- [x] 03-01-PLAN.md — Author the evaluation/hardening layer (EVALUATION_RUBRIC.md + 5 examples/*.md fixtures + check_package.py + repo-root README + frozen review record) as one coherent additive deliverable threaded by the recognition-determines-worth example, with a blocking human-verify checkpoint for rubric voice, 7-dimension fidelity, fixture coverage, safety-stop fidelity, and cross-file coherence.
 
 **Success Criteria**:
 
@@ -99,9 +99,9 @@ Plans:
 | ART-01 | Phase 2 | Complete |
 | ART-02 | Phase 2 | Complete |
 | ART-03 | Phase 2 | Complete |
-| EVAL-01 | Phase 3 | Pending |
-| EVAL-02 | Phase 3 | Pending |
-| EVAL-03 | Phase 3 | Pending |
+| EVAL-01 | Phase 3 | Complete |
+| EVAL-02 | Phase 3 | Complete |
+| EVAL-03 | Phase 3 | Complete |
 
 **Coverage:** 15/15 v1 requirements mapped.
 

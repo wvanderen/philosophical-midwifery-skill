@@ -28,9 +28,9 @@
 
 ### Evaluation
 
-- [ ] **EVAL-01**: User can evaluate sample sessions for proposition clarity, user ownership, dialectical discipline, logical pressure, non-coercion, summary quality, and practical usefulness.
-- [ ] **EVAL-02**: User can run or inspect representative fixtures that test normal inquiry, overinterpretation prevention, advice avoidance, and safety-boundary handling.
-- [ ] **EVAL-03**: User can confirm the skill package remains complete through a lightweight automated check.
+- [x] **EVAL-01**: User can evaluate sample sessions for proposition clarity, user ownership, dialectical discipline, logical pressure, non-coercion, summary quality, and practical usefulness.
+- [x] **EVAL-02**: User can run or inspect representative fixtures that test normal inquiry, overinterpretation prevention, advice avoidance, and safety-boundary handling.
+- [x] **EVAL-03**: User can confirm the skill package remains complete through a lightweight automated check.
 
 ## v2 Requirements
 
@@ -72,9 +72,9 @@
 | ART-01 | Phase 2 | Complete |
 | ART-02 | Phase 2 | Complete |
 | ART-03 | Phase 2 | Complete |
-| EVAL-01 | Phase 3 | Pending |
-| EVAL-02 | Phase 3 | Pending |
-| EVAL-03 | Phase 3 | Pending |
+| EVAL-01 | Phase 3 | Complete |
+| EVAL-02 | Phase 3 | Complete |
+| EVAL-03 | Phase 3 | Complete |
 
 **Coverage:**
 
@@ -84,4 +84,4 @@
 
 ---
 *Requirements defined: 2026-06-23*
-*Last updated: 2026-06-24 after Phase 2 completion*
+*Last updated: 2026-06-25 after Phase 3 completion (v1 milestone ready)*
