@@ -18,13 +18,13 @@
 - [x] **MTH-01**: User can inspect a question taxonomy covering clarification, universalization, implication, counterexample, necessity/sufficiency, domain separation, contradiction testing, and reformulation.
 - [x] **MTH-02**: User can inspect pathologos pattern guidance that helps generate candidate beliefs without overclaiming certainty.
 - [x] **MTH-03**: User can inspect safety boundaries that stop normal inquiry for self-harm intent, intent to harm others, acute crisis, psychosis-like loss of reality testing, or diagnosis requests.
-- [ ] **MTH-04**: User can inspect a session schema that captures the fields needed to track inquiry state.
+- [x] **MTH-04**: User can inspect a session schema that captures the fields needed to track inquiry state.
 
 ### Session Artifacts
 
-- [ ] **ART-01**: User can use a session summary template that captures the presenting disturbance, concrete example, candidate pathologos, examined proposition, definitions, implications, counterexamples, contradiction or weakness, revised proposition, unresolved tension, and next inquiry target.
-- [ ] **ART-02**: User can use a belief graph JSON template as a seed for later recurring-belief analysis.
-- [ ] **ART-03**: User can validate a session JSON artifact against required schema fields with a local script.
+- [x] **ART-01**: User can use a session summary template that captures the presenting disturbance, concrete example, candidate pathologos, examined proposition, definitions, implications, counterexamples, contradiction or weakness, revised proposition, unresolved tension, and next inquiry target.
+- [x] **ART-02**: User can use a belief graph JSON template as a seed for later recurring-belief analysis.
+- [x] **ART-03**: User can validate a session JSON artifact against required schema fields with a local script.
 
 ### Evaluation
 
@@ -68,10 +68,10 @@
 | MTH-01 | Phase 1 | Complete |
 | MTH-02 | Phase 1 | Complete |
 | MTH-03 | Phase 1 | Complete |
-| MTH-04 | Phase 2 | Pending |
-| ART-01 | Phase 2 | Pending |
-| ART-02 | Phase 2 | Pending |
-| ART-03 | Phase 2 | Pending |
+| MTH-04 | Phase 2 | Complete |
+| ART-01 | Phase 2 | Complete |
+| ART-02 | Phase 2 | Complete |
+| ART-03 | Phase 2 | Complete |
 | EVAL-01 | Phase 3 | Pending |
 | EVAL-02 | Phase 3 | Pending |
 | EVAL-03 | Phase 3 | Pending |
@@ -84,4 +84,4 @@
 
 ---
 *Requirements defined: 2026-06-23*
-*Last updated: 2026-06-23 after initial definition*
+*Last updated: 2026-06-24 after Phase 2 completion*

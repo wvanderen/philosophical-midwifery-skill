@@ -89,10 +89,10 @@ Plans:
 | MTH-01 | Phase 1 | Complete |
 | MTH-02 | Phase 1 | Complete |
 | MTH-03 | Phase 1 | Complete |
-| MTH-04 | Phase 2 | Pending |
-| ART-01 | Phase 2 | Pending |
-| ART-02 | Phase 2 | Pending |
-| ART-03 | Phase 2 | Pending |
+| MTH-04 | Phase 2 | Complete |
+| ART-01 | Phase 2 | Complete |
+| ART-02 | Phase 2 | Complete |
+| ART-03 | Phase 2 | Complete |
 | EVAL-01 | Phase 3 | Pending |
 | EVAL-02 | Phase 3 | Pending |
 | EVAL-03 | Phase 3 | Pending |
