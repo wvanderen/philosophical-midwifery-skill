@@ -10,7 +10,7 @@
 |-------|------|------|--------------|
 | 1 | 1/1 | Complete   | 2026-06-24 |
 | 2 | Structured Session Artifacts | Add schema, templates, and validation for session outputs. | MTH-04, ART-01, ART-02, ART-03 |
-| 3 | Evaluation & Hardening | Add fixtures and checks that verify the skill's behavior and package completeness. | EVAL-01, EVAL-02, EVAL-03 |
+| 3 | 1/1 | Complete    | 2026-06-26 |
 
 ## Phases
 
